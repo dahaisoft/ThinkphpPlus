@@ -1,0 +1,20 @@
+{
+    "name": "dahaisoft/ThinkphpPlus",
+    "type": "library",
+    "description": "Thinkphp plus",
+    "keywords": ["thinkphp","thinkphp plus"],
+    "homepage": "http://www.dahaitech.cn/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haiwei Long",
+            "email": "haiwei.free@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"ThinkphpPlus\\": "./"}
+    },
+}
