@@ -7,12 +7,11 @@ namespace ThinkphpPlus;
  */
 class Model extends \Think\Model
 {
-
     /**
      * auto默认时间
      * @return datetime        Y-m-d
      */
-    protected function date()
+    protected function setDate()
     {
         return date('Y-m-d');
     }
@@ -21,7 +20,7 @@ class Model extends \Think\Model
      * auto默认时间
      * @return datetime        Y-m-d H:i:s
      */
-    protected function datetime()
+    protected function setDatetime()
     {
         return date('Y-m-d H:i:s');
     }
@@ -30,7 +29,7 @@ class Model extends \Think\Model
      * auto空时默认时间
      * @return datetime        Y-m-d H:i:s
      */
-    protected function emptyDatetime($value)
+    protected function setEmptyDatetime($value)
     {
         return empty($value) ? date('Y-m-d H:i:s') : $value;
     }
