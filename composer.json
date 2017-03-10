@@ -16,5 +16,6 @@
     },
     "autoload": {
         "psr-4": {"ThinkphpPlus\\": "./"}
-    }
+    },
+    "minimum-stability":"dev"
 }
